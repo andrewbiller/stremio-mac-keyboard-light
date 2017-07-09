@@ -1,13 +1,22 @@
-# Mac Keyboard Light for Strem.io
-## It's an add-on that turn off backlight from mac keyboards when playing content
+# Mac Keyboard Light addon for Strem.io
+## Turn off backlight keyboard when playing content at Macs
 
-Works only on macs (*obvious*)
-
-It uses the `src/keyboard-brightness.c` code
+* Only works on macs (*obvious*)
+* It uses the `src/keyboard-brightness.c` code
 
 You can use the `bin/kbrightness` from the repo or compile yourself using:
-
 
 `gcc -std=c99 -o kbrightness keyboard-brightness.c -framework IOKit -framework ApplicationServices`
 
 `./kbrightness 0.8`
+
+## Testing
+
+To test this project standalone:
+
+* Install http://strem.io *or* download or use the https://github.com/Ivshti/stremio-addons-client
+* `git clone https://github.com/andrewbiller/stremio-mac-keyboard-light.git`
+* `npm install`
+* `npm start`
+* Open the node url `http://localhost:7099/` and click install addon
+* Play any movie and see keyboard light turning off

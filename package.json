@@ -1,0 +1,31 @@
+{
+  "name": "stremio-mac-keyboard-light",
+  "version": "1.0.0",
+  "description": "Turn off backlight from mac keyboards when playing content",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "tape tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewbiller/stremio-mac-keyboard-light.git"
+  },
+  "keywords": [
+    "stremio",
+    "mac",
+    "keyboard",
+    "light"
+  ],
+  "author": "Andrew Biller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewbiller/stremio-mac-keyboard-light/issues"
+  },
+  "homepage": "https://github.com/andrewbiller/stremio-mac-keyboard-light#readme",
+  "dependencies": {
+    "async": "1.x.x",
+    "simple-get": "2.3.x",
+    "stremio-addons": "^2.8.3"
+  }
+}

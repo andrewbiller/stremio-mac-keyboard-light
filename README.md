@@ -10,13 +10,14 @@ You can use the `bin/kbrightness` from the repo or compile yourself using:
 
 `./kbrightness 0.8`
 
-## Testing
+## Testing and User
 
 To test this project standalone:
 
 * Install http://strem.io *or* download or use the https://github.com/Ivshti/stremio-addons-client
 * `git clone https://github.com/andrewbiller/stremio-mac-keyboard-light.git`
+* `cd stremio-mac-keyboard-light`
 * `npm install`
 * `npm start`
-* Open the node url `http://localhost:7099/` and click install addon
+* Open the url `http://localhost:7099/stremio/v1` and click install addon
 * Play any movie and see keyboard light turning off

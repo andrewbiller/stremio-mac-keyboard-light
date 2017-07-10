@@ -10,7 +10,7 @@ You can use the `bin/kbrightness` from the repo or compile yourself using:
 
 `./kbrightness 0.8`
 
-## Testing and User
+## Testing or Using it
 
 To test this project standalone:
 
